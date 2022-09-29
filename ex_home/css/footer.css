@@ -1,0 +1,25 @@
+footer{
+  min-width: 1300px;
+  height:280px;
+  background-color:#141414;
+}
+footer>.wrap{
+  color:#bcbcbc;
+  line-height:25px;
+  font-size:14px;
+  display:flex;
+  justify-content:space-between;
+  padding:80px 110px;
+}
+footer .author>li:first-child{
+  font-size:16px;
+  color:#fff;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+footer .manu{
+  display: flex;
+}
+footer .manu ul{
+  margin-left:70px;
+}

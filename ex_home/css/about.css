@@ -1,0 +1,120 @@
+/*banner*/
+#banner{
+  min-width:1300px;
+  height:320px;
+  /*배경이미지와 그라디언트를 겹쳐서 사용할 수 있다.*/
+  background:linear-gradient(0deg,rgba(0,0,0,0.6)0%,rgba(0,0,0,0.6)100%),url(../img/ex_about/banner.jpg)center/cover;
+  text-align:center;
+  color:#fff;
+  padding-top:80px;
+  box-sizing:border-box;
+}
+#banner>h1{
+  font-size:32px;
+  line-height:80px;
+}
+#banner>p{
+  font-size:16px;
+  line-height:26px;
+}
+/*numbers*/
+#numbers{
+  width:1300px;
+  margin:auto;
+  background-color:#10c9c3;
+  color:#fff;
+  padding:100px 0;
+  display:flex;
+}
+#numbers>.item{
+  width:25%;
+  height:40px;
+  border-right:1px solid #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+#numbers>.item:last-child{
+  border-right:none;
+}
+.item>img{
+  margin-right:20px;
+  /*이미지를 위로 올림*/
+  position:relative;
+  bottom:1px;
+}
+.item>p{
+  font-size: 12px;
+  line-height:20px;
+  text-transform: uppercase;/*대문자로 변경*/
+}
+.item>p>b{
+  font-size:16px;
+}
+/*about_me*/
+#about_me{
+  width:1300px;
+  margin:auto;
+  height:520px;
+  background-color:#f5f5f5;
+  display: flex;
+}
+#about_me>div{
+  width:50%;
+  height:520px;
+  padding:120px 120px;
+  box-sizing: border-box;
+}
+#about_me>.largeImg{
+  background:url(../img/ex_about/about_me.jpg)center/cover;
+}
+#about_me>.txt>h1{
+  font-size: 28px;
+  line-height:40px;
+  color:#191919;
+}
+#about_me>.txt>p{
+  font-size:16px;
+  line-height:20px;
+  color:#787878;
+  margin:20px 0;
+}
+#about_me>.txt>.sign{
+  margin-top:40px;
+}
+/*project*/
+#project{
+  width:1300px;
+  margin:auto;
+  height:360px;
+  padding:80px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+#project>h1{
+  font-size: 28px;
+  color:#191919;
+  line-height:40px;
+}
+#project>p{
+  color:#787878;
+  font-size:16px;
+  margin:20px 0 40px;
+}
+#project>button{
+  width:170px;
+  height:50px;
+  border:none;
+  outline:none;
+  background-color:#10c9c3;
+  color:#fff;
+  font-weight: bold;
+  font-size:12px;
+  letter-spacing: 2px;
+  cursor:pointer;
+  text-transform:uppercase;/*대문자 변경*/
+}
+#project>button:hover{
+  background-color:#0ab6b1;
+}

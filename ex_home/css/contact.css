@@ -1,0 +1,82 @@
+#contact{
+  min-width:1300px;
+  padding:80px 0;
+  background-color:#f5f5f5;
+}
+#contact>.wrap{
+  padding:0px 100px;
+  display:flex;
+  justify-content: space-between;
+}
+#contact .info{
+  width:360px;
+}
+#contact .info>h1{
+  font-size:28px;
+  color:#333;
+  line-height:80px;
+}
+#contact .info>.txt{
+  line-height:20px;
+  margin-bottom:40px;
+}
+#contact .info>p{
+  font-size: 15px;
+  color:#787878;
+  line-height:30px;
+}
+#contact .info>p>b{
+  font-weight: normal;
+  color:#171717;
+}
+form{
+  width:635px;
+  margin-top:40px;
+  display:flex;
+  flex-wrap:wrap;
+  align-content: flex-start;/*세로정렬*/
+}
+form>input[type=text]{
+  width:310px;
+  height:40px;
+  text-indent:20px;
+  background-color:#fff;
+  border:0; outline:0;
+  margin-bottom:20px;
+  font-size:15px;
+}
+input:first-child{
+  margin-right:15px;
+}
+form>input:nth-child(3){
+  width:635px;
+}
+textarea{
+  width:635px;
+  height:160px;
+  padding:20px;
+  box-sizing: border-box;
+  border:0; outline:0;
+  font-size:15px;
+  resize: none;
+}
+input[type=submit]{
+  width:170px;
+  height:40px;
+  font-size:12px;
+  font-weight: bold;
+  background-color:#10c9c3;
+  border:0; outline:0;
+  color:#fff;
+  margin-top:40px;
+  cursor: pointer;  
+}
+input[type=sumbit]:hover{
+  background-color:#0ab6b1;
+}
+.map{
+  width:1300px;
+  padding:80px 100px 0px;
+  box-sizing: border-box;
+  margin:auto;
+}
