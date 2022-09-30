@@ -103,6 +103,7 @@
   margin:20px 0 40px;
 }
 #project>a{
+  display: inline-block;
   width:170px;
   height:50px;
   border:none;
@@ -115,6 +116,6 @@
   cursor:pointer;
   text-transform:uppercase;/*대문자 변경*/
 }
-#project>button:hover{
+#project>a:hover{
   background-color:#0ab6b1;
 }
