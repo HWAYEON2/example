@@ -1,0 +1,6 @@
+*{margin:0; padding:0;box-sizing: border-box;}
+a{text-decoration: none; color:inherit;}
+ul{list-style: none;}
+body{
+  font-family: Verdana; 
+  min-width: 1920px;}

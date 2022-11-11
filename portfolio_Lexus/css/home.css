@@ -1,0 +1,298 @@
+/*폰트페이스*/
+@font-face {
+  font-family: 'ONE-Mobile-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+/*model*/
+#model{
+  width:1240px;
+  height:630px;
+  margin:auto;
+  padding-top:70px;
+  box-sizing: border-box;
+  position: relative;
+}
+#model>h1{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom:70px;
+  margin-left:90px;
+}
+#model>.arrow{
+  width:80px;
+  position:absolute;
+  top:110px;
+  right:100px;
+  font-size:35px;
+  color:#dbdbdb;
+  display: flex;
+}
+#model i:hover{
+  color:#4e4e4e;
+  cursor:pointer;
+}
+#model>.arrow>i{
+  margin:0 10px;
+}
+#model>.modelWrap{
+  width:100%;
+  height:400px;
+  display: flex;
+  margin:auto;
+  overflow: hidden;
+}
+#model .modelBox{
+  position: relative;
+  margin:0 20px;
+}
+#model .price{
+  position: absolute;
+  top:30px;
+  left:40px;
+  color:#f9f9f9;
+  font-family: "NanumSquare";
+  font-size:16px;
+}
+#model .price b{
+  font-size:22px;
+  font-weight: 900;
+}
+#model .allBox{
+  width:90px;
+  height:30px;
+  background-color:#f4f4f4;
+  position: absolute;
+  bottom:30px;
+  left:40px;
+  text-align: center;
+}
+#model .allBox>a{
+  color:#111;
+  font-size: 14px;
+  line-height:30px;
+  font-family: "NanumSquare";
+  font-weight: bold;
+}
+#model .allBox i{
+  margin-left:10px;
+}
+#model .allBox>a:hover{
+  color:#1197d5;   
+}
+
+/*원하는 모델 찾기*/
+#hope{
+  min-width:1200px;
+  height:217px;
+  background:url(../img/hope_img.png);
+}
+#hope>.hope_wrap{
+  width:1020px;
+  height:100%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  font-family: "NanumSquare";
+  color:#ededed;
+}
+#hope .left_txt>p:first-child{
+  font-size: 18px;
+  margin-bottom:20px;
+}
+#hope .left_txt>p:last-child{font-size: 14px;}
+#hope .search{
+  display: flex;
+}
+#hope .search>.box{
+  width:185px;
+  height:60px;
+  border:1px solid #ededed;
+  padding:0 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+#hope .search>.box:first-child{
+  margin-right:85px;
+}
+#hope .search a{
+  font-size:16px;
+  line-height: 60px;
+}
+#hope .search i{
+  position: absolute;
+  top:15px;
+  right:15px;
+  
+  font-size:30px;
+}
+#hope .search .box:hover{
+  border:1px solid #12f9f9;
+  color:#12f9f9;
+}
+
+/*렉서스 인증 중고차 찾기*/
+#useCar_search{
+  width:1460px;
+  height:650px;
+  padding:70px 0;
+  box-sizing: border-box;
+  margin:auto;
+  position: relative;
+  overflow: hidden;
+}
+#useCar_search>p{
+  font-size:24px;
+  color:#111;
+  font-family: "NanumSquare";
+  margin-left:80px;
+  margin-bottom:115px;
+  font-weight: bold;
+}
+#useCar_search>.model_search{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+#useCar_search .useBox{
+  width:330px;
+  margin:0 60px;
+}
+
+#useCar_search .useBox button{
+  background: transparent;
+  border:0; outline: 0;
+  width:170px;
+  height:50px;
+  background-color: #434346;
+  color:#ededed;
+  font-size: 18px;
+  font-family: "NanumSquare";
+  margin-left:80px;
+  margin-top:55px;
+}
+#useCar_search .useBox button i{
+  margin-right:10px;
+}
+#useCar_search .useBox button:hover{
+  background-color:#1197d5;
+  color:#ededed;
+}
+#useCar_search>.use_arrow>li{
+  font-size:50px;
+  color:#dbdbdb;
+  position: absolute;
+}
+#useCar_search>.use_arrow>li:first-child{
+  left:0px;
+  top:50%;
+  transform: translateY(-50%);
+}
+#useCar_search>.use_arrow>li:last-child{
+  right:0px;
+  top:50%;
+  transform: translateY(-50%);
+}
+#useCar_search >.use_arrow>li:hover{
+  color:#4e4e4e;
+  cursor:pointer;
+}
+#useCar_search>.use_dot{
+  width:180px;
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  margin-top:80px;
+}
+#useCar_search>.use_dot>li{
+  width:15px;
+  height:15px;
+  border:1px solid #434346;
+  border-radius: 50%;
+  position:relative;
+  cursor: pointer;
+}
+#useCar_search>.use_dot>.on{
+  background-color: #434346;
+}
+#useCar_search>.use_dot>li:hover{
+  background-color: #434346;
+}
+
+/*golf*/
+#golf{
+  outline: 1px solid red;
+  background: transparent;
+  border:0; outline: 0;
+  width:100%;
+  height:300px;
+  background:url(../img/golf_banner.png) center/cover;
+}
+#golf>a{
+  display: inline-block;
+  width:100%;
+  height:100%;
+  font-size: 26px;
+  color:#fbfbfb;
+  font-family: "NanumSquare";
+  line-height:50px;
+  padding-top:105px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+#golf b{
+  font-size: 30px;
+  font-weight: 900;
+}
+#golf:hover a{
+  transform:scale(1.1)
+}
+
+/*youtube*/
+#youtube{
+  width:100%;
+  height:840px;
+  padding:110px 0;
+  box-sizing: border-box;
+}
+#youtube>.you_wrap{
+  width:1555px;
+  height:630px;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.you_wrap>.you_box{
+  width:370px;
+  height:270px;
+  font-family: "NanumSquare";
+  color:#111;
+  overflow:hidden;
+}
+.you_wrap img{
+  width:370px;
+  height:160px;
+  transition:all 0.5s;
+}
+.you_wrap h3{
+  font-size:22px;
+  line-height: 60px;
+  margin-left:10px;
+}
+.you_wrap p{
+  font-size:14px;
+  line-height: 25px;
+  margin-left:10px;
+}
+.you_box:hover img{
+  transform:scale(1.1);
+}
+

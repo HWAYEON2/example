@@ -1,0 +1,292 @@
+/*폰트페이스*/
+@font-face {
+  font-family: 'ONE-Mobile-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*gnb*/
+#nav{
+  width:100%;
+  position: relative;}
+.wrap{
+  width:1480px;
+  height:110px;
+  padding:0px 10px;
+  box-sizing: border-box;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  font-family: "ONE-Mobile-Regular";
+  font-weight: 900;
+  color:#111;
+}
+#nav .gnb{
+  width:100%;
+  height:100%;
+  margin-left:170px;
+  padding: 46px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+#nav .gnb>.b1>a{
+  display: inline-block;
+  height:65px;
+}
+#nav .gnb>.ls>a,#nav .gnb>.es>a,#nav .gnb>.rx>a,#nav .gnb>.nx>a,#nav .gnb>.ux>a,#nav .gnb>.rc>a,#nav .gnb>.lc>a{
+  width:90px;
+}
+#nav .gnb>.used>a{width:130px;}
+#nav .gnb>.used,#nav .gnb>.program{
+  font-weight: normal;
+}
+#nav .gnb>.used{
+  margin-left:150px;
+}
+#nav .gnb>.program{
+  margin-right:0px;
+}
+.gnb>.b1>a:hover{
+  color:#5aacdb;
+  transform: scale(1.1);
+}
+
+/*sub*/
+.sub{
+  width:100%;
+  height:250px;
+  padding-top:30px;
+  box-sizing: border-box;  
+  position:absolute;
+  left:0;
+  top:110px;
+  background-color:#fff;
+  text-align: center;
+  display: none;
+  z-index: 100;
+}
+.gnb .content1{
+  width:600px;
+  height:220px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+} 
+.sub h2{
+  font-size:16px;
+  line-height:40px;
+}
+.sub .txt{
+  width:270px;
+  font-size:12px;
+  display: flex;
+}
+.sub .txt>li:nth-child(1),.sub .txt>li:nth-child(2){
+  width:75px;
+  border-right:1px solid #434346;
+}
+.sub .txt>li:nth-child(3){
+  width:120px;
+}
+
+.gnb .content2{
+  width:900px;
+  height:220px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+} 
+.gnb .content3{
+  width:1200px;
+  height:220px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+} 
+.gnb .content4{
+  width:300px;
+  height:220px;
+  margin:auto;
+}
+.electrified .textBox>.ele{
+  margin-top:10px;
+  font-size:20px;
+}
+.car_txt{
+  width:1300px;
+  height:100%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+}
+.car_txt h1{
+  width:415px;
+  font-size:28px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-align: right;
+}
+.car_txt h2{
+  font-size:15px;
+  font-weight: bold;
+  width:415px;
+  text-align: right;
+}
+.car_txt .mid_txt{
+   width:180px;
+  height:1px;
+  background-color:#111;
+  margin:15px 20px 0;
+}
+.car_txt .use_txt{
+   width:665px;
+  height:100%;
+  font-size:15px;
+  text-align: left;
+  line-height:30px;
+}
+.car_txt .use_txt>a{
+  display: inline-block;
+  width:250px;
+  border:3px solid #111;
+  font-size:12px;
+  line-height:40px;
+  font-weight: bold;
+  margin-top:20px;
+  position: relative;
+  padding-left:25px;
+  box-sizing: border-box;
+}
+.car_txt .use_txt>a:hover,.car_txt .use_txt>a:hover>i{
+  background-color: #434346;
+  color:#ededed;
+}
+.corporate_txt .program_txt>a:hover,.corporate_txt .program_txt>a:hover>i{
+  background-color: #434346;
+  color:#ededed;
+}
+.car_txt .use_txt i{
+  position: absolute;
+  right:25px;
+  top:11px;
+  font-size:15px;
+  color:#111;
+}
+.corporate_txt{
+  width:1300px;
+  height:100%;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+}
+.corporate_txt h1{
+  width:415px;
+  font-size:28px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-align: right;
+}
+.corporate_txt h2{
+  width:415px;
+  font-size:15px;
+  font-weight: bold;
+  text-align: right;
+}
+.corporate_txt .mid_txt{
+  width:180px;
+  height:1px;
+  background-color:#111;
+  margin:15px 20px 0;
+}
+.corporate_txt .program_txt{
+  width:665px;
+  height:100%;
+  font-size:15px;
+  text-align: left;
+  line-height:30px;
+}
+.corporate_txt .program_txt>a{
+  display: inline-block;
+  width:250px;
+  border:3px solid #111;
+  font-size:12px;
+  line-height:40px;
+  font-weight: bold;
+  margin-top:20px;
+  position: relative;
+  padding-left:28px;
+  box-sizing: border-box;
+}
+.corporate_txt .program_txt i{
+  position: absolute;
+  right:32px;
+  top:11px;
+  font-size:15px;
+  color:#111;
+}
+
+/*banner*/
+#banner{
+  position:relative;
+  width:100%;
+  height:537px;
+  overflow: hidden;
+}
+#banner>.imgGroup{
+  width:500%;
+  height:537px;
+  position: absolute;
+  left:0;
+  top:0;
+}
+#banner img{
+  float:left;
+  height:100%;
+}
+#banner>.dot{
+  width:200px;
+  margin:auto;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:10px;
+  color:#ededed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#banner>.dot>.play{
+  width:30px;
+  height:30px;
+  border:1px solid #ededed;
+  border-radius: 50%;
+  position:relative;
+  cursor: pointer;
+}
+#banner>.dot .round{
+  display: flex;
+}
+#banner>.dot .round>li{
+  width:15px;
+  height:15px;
+  border:1px solid #ededed;
+  border-radius: 50%;;
+  cursor: pointer;
+  margin-left:15px;
+}
+#banner>.dot i{
+  font-size: 10px;
+  text-indent: 2px;
+  position:absolute;
+  left:50%; top:50%;
+  transform:translate(-50%,-50%);
+}
+#banner .round>.on{
+  background-color:#ededed;
+}
+#banner>.dot .round>li:hover{
+  background-color:#ededed;
+}

@@ -1,0 +1,134 @@
+/*폰트페이스*/
+@font-face {
+  font-family: 'ONE-Mobile-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ONE-Mobile-Title';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+
+footer{
+  border-top:1px solid #ededed;
+  width:100%;
+  padding-top: 50px;
+}
+.foo_wrap{
+  width:1200px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  color:#111;
+}
+
+/*button*/
+.foo_wrap .button{
+  width:560px;
+  display: flex;
+  justify-content: space-between;
+  margin:40px 0;
+}
+.foo_wrap .button>a{
+  display: inline-block;
+  background-color:#ededed;
+  height:40px;
+  border:1px solid #d4d4d4;
+  border-radius: 5px;
+  font-size:14px;
+  line-height: 40px;
+  text-align: center;
+} 
+.foo_wrap .button>.b1{
+  width:130px;
+}
+.foo_wrap .button>.b2{
+  width:90px;
+}
+.foo_wrap .button>.b3{
+  font-family: "NanumSquare";
+  font-weight: bold;
+  width:90px;
+}
+.foo_wrap .button>.b4{
+  width:200px;
+}
+.foo_wrap .button>a:hover{
+  background-color: #434346;
+  color:#ededed;
+}
+/*sns*/
+.foo_wrap .sns{
+  width:180px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-bottom:40px;
+}
+.foo_wrap .sns>li{
+  width:50px;
+  height:50px;
+  border:1px solid #d4d4d4;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+.foo_wrap .sns a{
+  display: inline-block;
+  width:50px;
+  height:50px;
+}
+.foo_wrap .sns i:first-child{
+  margin-right:2px;
+}
+.foo_wrap .sns>li:hover{ 
+  background-color: #434346;
+  color:#ededed;
+}
+
+/*about*/
+.foo_wrap .about{
+  width:480px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.foo_wrap .about>li:nth-child(3){
+  font-family: "ONE-Mobile-Title";
+  font-weight: bold;
+}
+.foo_wrap .about>li:nth-child(4){
+  font-family: "ONE-Mobile-Regular";
+}
+.foo_wrap .about a:hover{
+  border-bottom: 1px solid #434346;
+}
+
+/*foo_box*/
+.foo_wrap>.foo_box2{
+  margin-top:60px;
+  font-size: 14px;
+  text-align: right;
+}
+.foo_wrap>.foo_box2>li:first-child,.foo_wrap>.foo_box2>li:nth-child(2){
+  font-family: "ONE-Mobile-Regular";
+}
+.foo_wrap>.foo_box2 p{
+  line-height:25px;
+}
+.foo_wrap>.foo_box2 b{
+  font-weight: bold;
+  font-family: "ONE-Mobile-Title";
+}
+.foo_wrap>.foo_box2>li:nth-child(2){
+  margin:20px 0 45px;
+}
+.foo_wrap>.foo_box2>li:last-child{
+  font-weight: bold;
+}
