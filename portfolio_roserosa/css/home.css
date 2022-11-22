@@ -1,0 +1,142 @@
+/*구글폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+#banner{
+  width:100%;
+  height:910px;
+  position:relative;
+}
+#banner .bannerImg{
+  width:100%;
+  height: 100%;
+}
+#banner img{
+  width:100%;
+  display: block;
+  position:absolute;
+  left:0; top:0;
+}
+#banner .active{z-index:1;}
+
+/*title*/
+#title{
+  width:100%;
+  height:400px;
+}
+#title .text{
+  width:620px;
+  height:330px;
+  margin: 30px auto 0;
+  text-align: center;
+  padding-top:70px;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Gabriola";
+  color:#111;
+  letter-spacing: 1px;
+}
+#title h1{
+  font-size:30px;
+  line-height: 60px;
+}
+#title h2{
+  font-size: 30px;
+  font-size: 900;
+  line-height: 60px;
+}
+#title .angle img{
+  position: absolute;
+  display: block;
+}
+#title .angle>img:first-child{
+  left:0; top:0;
+}
+#title .angle>img:last-child{
+  right:0; bottom:0;
+}
+
+/*about*/
+#about{
+  width:100%;
+  height:551px;
+  display: flex;
+}
+#about img{display: block;}
+#about .aboutTxt{
+  width:1050px;
+  height:100%;
+  background-color:#f1f1f1;
+  text-align: center;
+  color:#333;
+}
+#about .txt{
+  width:620px;
+  margin: auto;
+}
+#about h2{
+  font-family: "Abel";
+  font-size:20px;
+  margin:60px 0 45px;
+}
+#about p{
+
+  font-size:16px;
+  line-height:30px;
+}
+.aboutTxt>p:last-child{
+  margin-top:30px;
+}
+
+/*contents*/
+#contents{
+  width:1200px;
+  height:1500px;
+  margin: auto;
+  padding-top:120px;
+  box-sizing: border-box;
+}
+#contents h2{
+  font-size:45px;
+  font-family: "Abel";
+  text-align: center;
+  margin-bottom:85px;
+}
+#contents .wrap{
+  width:100%;
+  height:995px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+#contents .box{
+  width:390px;
+  height:490px;
+  position:relative;
+  overflow: hidden;
+}
+#contents .box img{width:100%; transition:all 2.5s;}
+#contents .txt{
+  width:390px;
+  line-height:490px;
+  position:absolute;
+  top:0; left:0;
+  background-color:rgba(119,119,119,0.5);
+  text-align: center;
+  color:#333;
+  font-size:18px;
+  font-family:"MS Reference Sans Serif";
+  font-weight: bold;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition:all 1s;
+}
+#contents .box:hover img{
+  transform:rotate(10deg) scale(1.3);
+}
+#contents .box:hover .txt{
+  opacity:1;
+  background-color:rgba(204,204,204,0.2);
+}
+  
+

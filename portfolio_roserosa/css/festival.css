@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+#festival_banner{
+  width:100%;
+  height:400px;
+  padding-top:130px;
+  box-sizing: border-box;
+  background:url(../img/festival/festival_banner.png)center/cover;
+}
+.festival_txt{
+  text-align: center;
+  color:#111;
+}
+.festival_txt h2{
+  font-size:20px;
+  font-family: "Abel";
+  margin-bottom:30px;
+}
+.festival_txt p{
+  font-size:16px;
+  font-family:"ONE 모바일고딕";
+  line-height: 1.5;
+}
+
+#festival_contents{
+  width:860px;
+  margin:140px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.festival_box{
+  width:360px;
+}
+.festival_box li:first-child{
+  width:100%;
+  height:480px;
+  border:1px solid #bcbbbd;
+  position:relative;
+  overflow: hidden;
+}
+.festival_box li:first-child a{
+  display: block;
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:50%; left:50%;
+  transform: translate(-50%,-50%);
+  transition:all 0.7s;
+}
+.festival_box li:first-child img{
+  width:320px;
+  height:448px;
+  position:absolute;
+  top:50%; left: 50%;
+  transform: translate(-50%,-50%);
+  transition:all 0.5s;
+}
+.festival_box:hover li:first-child a{
+  width:100%;
+  height:100%;
+  background-color:#ddd;
+}
+.festival_box:hover li:first-child img{
+opacity: 0.8;
+}
+.festival_box li:last-child{
+  width:100%;
+  text-align: center;
+  line-height:1.6;
+  font-size:14px;
+  font-family: "ONE 모바일고딕";
+  color:#111;
+}
+.festival_box li:last-child a{
+  display: block;
+  width:100%;
+  height:100%;
+  padding-top:30px;
+}

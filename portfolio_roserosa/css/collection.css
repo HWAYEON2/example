@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+#collection .txt{
+  width:1200px;
+  margin:auto;
+  text-align: center;
+  font-family: "Abel";
+}
+#collection .txt h2{
+  font-size:20px;
+  color:#111;
+  margin:95px 0 45px;
+}
+#collection .year{
+  display: flex;
+  width:600px;
+  margin: 0 auto 100px;
+  justify-content: space-between;
+  font-size:18px;
+}
+#collection .year li{
+  height:25px;
+  border-bottom:none;
+  box-sizing: border-box;
+}
+#collection .year li.on{
+  font-weight: bold;
+  border-bottom:1px solid #111;
+}
+#collection .year li:hover{
+  font-weight: bold;
+  border-bottom:1px solid #111;
+}
+
+.coll_contents{
+ width:100%;
+ display: flex;
+}
+.coll_contents .label{
+  width:360px;
+  padding:0 70px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size:18px;
+  font-family: "Abel";
+}
+.label li{
+  width:100%;
+  height:25px;
+  margin-bottom:15px;
+  box-sizing: border-box;
+}
+.label li.on{
+  font-weight: bold;
+  border-bottom:1px solid #111;
+}
+.label li:hover{
+  font-weight: bold;
+  border-bottom:1px solid #111;
+}
+.label li:first-child:hover{
+  font-weight: normal;
+  border-bottom:none;
+}
+
+#collection .wrap{
+  width:1200px;
+  padding:0 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin-bottom:120px;
+}
+
+#collection .imgGroup{
+  width:260px;
+  height:390px;
+  position:relative;
+  margin-bottom: 45px;
+}
+#collection .imgGroup img{
+  position:absolute;
+}
+#collection .imgGroup img:first-child{
+  width:260px;
+  height:390px;
+  left:0; top:0;
+  cursor: pointer;
+}
+#collection .imgGroup img:last-child{
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  transition:all 0.3s;
+  cursor: pointer;
+  opacity:0;
+}
+#collection .imgGroup:hover img:last-child{
+  opacity:1;
+}
+
+#modal{
+  display:none;
+  position:fixed;
+  padding-top:10px; box-sizing: border-box;
+  left:0; top:0; right:0;bottom:0;
+  overflow: auto;
+  background-color: rgba(255,255,255,1);
+}
+.modal-content{
+  margin:auto;
+  display:block;
+  width:80%;
+  max-width:700px;
+}
+
+/*animaiton*/
+.modal-content{
+  animation:zoom 0.6s;
+}
+@keyframes zoom{
+  from{transform:scale(0);}
+  to{transform:scale(1);}
+}
+
+  /*.close버튼*/
+  .close{
+    position:absolute;
+    top:20px; right:80px;
+    color:#555;
+    font-size:40px;
+    font-weight: bold;
+    transition:0.3s;
+  }
+  .close:hover{
+    color:#bbb;
+    cursor: pointer;
+  }

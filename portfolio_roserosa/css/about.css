@@ -1,0 +1,74 @@
+/*banner*/
+#about{
+  width:100%;
+}
+.banner{
+  width:100%;
+  height:400px;
+  background:url(../img/about/banner.png) center/cover;
+}
+.txt{
+  text-align: center;
+  padding-top:130px;
+  box-sizing: border-box;
+  color:#111;
+}
+.txt h2{
+  font-family: "Abel";
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.txt p{
+  font-family: "ONE 모바일고딕";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.contents{
+  width:1200px;
+  height:730px;
+  margin:140PX auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contents .box{
+  width:390px;
+  height:100%;
+  background-color:#f1f1f1;
+  border-radius: 10px;
+  position:relative;
+}
+.contents .box img{
+ position:absolute;
+ left:50%; top:50px;
+ transform: translateX(-50%);
+}
+.contents .box p{
+  margin-top:220px;
+  font-size:14px;
+  text-align: center;
+  line-height: 24px;
+}
+.contents .box div{
+  width:198px;
+  line-height:75px;
+  position:absolute;
+  left:50%; bottom:55px;
+  transform: translateX(-50%);
+}
+.contents .box div a{
+  display: block;
+  width:100%;
+  height:100%;
+  background-color:#b8b0d9;
+  border-radius:15px;
+  color:#f1f1f1;
+  font-family: "Abel";
+  font-weight: bold;
+  text-align: center;
+  transition:all 0.3s;
+}
+.contents .box div a:hover{
+  background-color:#9a90c3;
+}
